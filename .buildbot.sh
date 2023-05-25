@@ -2,6 +2,6 @@
 
 set -e
 
-echo "buildbot script"
+echo "buildbot script!"
 
 exit 1
