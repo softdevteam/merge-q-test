@@ -2,6 +2,8 @@
 
 set -e
 
-echo "buildbot script!"
+for i in `seq 30`; do
+    echo $i
+done
 
 exit 1
