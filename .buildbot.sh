@@ -8,4 +8,4 @@ done
 
 echo hi 1
 
-exit 0
+exit 1
