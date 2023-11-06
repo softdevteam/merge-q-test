@@ -6,4 +6,6 @@ for i in `seq 30`; do
     echo $i
 done
 
+echo hi
+
 exit 1
