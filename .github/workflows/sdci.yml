@@ -4,6 +4,7 @@ on:
 
 jobs:
   dummy:
+    runs-on: self-hosted
     steps:
       - if: false
         run: /usr/bin/false
