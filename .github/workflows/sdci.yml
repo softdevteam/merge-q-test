@@ -8,4 +8,4 @@ jobs:
   dummy:
     runs-on: linux
     steps:
-      run: /usr/bin/true
+      - run: /usr/bin/true
