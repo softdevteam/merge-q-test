@@ -7,6 +7,7 @@ on:
 jobs:
   dummy:
     runs-on: self-hosted
+    name: buildbot/buildbot-build-script
     steps:
       - if: false
         run: /usr/bin/false
