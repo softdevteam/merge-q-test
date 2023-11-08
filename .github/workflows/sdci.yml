@@ -2,6 +2,8 @@ on:
   pull_request:
   merge_group:
 
+# This is required to silence emails about the workflow having no jobs.
+# We simply define a dummy job that is never run.
 jobs:
   dummy:
     runs-on: self-hosted
