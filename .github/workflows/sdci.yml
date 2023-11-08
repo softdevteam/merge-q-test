@@ -4,3 +4,4 @@ on:
 
 jobs:
   dummy:
+    runs-on: self-hosted
