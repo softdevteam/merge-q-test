@@ -3,3 +3,4 @@ on:
   merge_group:
 
 jobs:
+  dummy:
