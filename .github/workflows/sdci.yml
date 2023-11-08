@@ -6,6 +6,6 @@ on:
 # We simply define a dummy job that is never run.
 jobs:
   dummy:
-    runs-on: linux
+    runs-on: ubuntu-latest
     steps:
       - run: /usr/bin/true
