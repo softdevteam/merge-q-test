@@ -6,6 +6,6 @@ on:
 # We simply define a dummy job that is never run.
 jobs:
   dummy:
-    runs-on: self-hosted
-    name: buildbot/buildbot-build-script
+    runs-on: linux
     steps:
+      run: /usr/bin/true
